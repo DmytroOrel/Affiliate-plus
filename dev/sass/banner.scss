@@ -1,0 +1,52 @@
+.banner{
+    .container{
+        background-color: #E3EBF1;
+        border-radius: 10px;
+        .banner-filling{
+            display: flex;
+            flex-direction: row;
+            padding: 50px;
+            .banner-img{
+                width: 100%;
+                padding-right: 50px;
+            }
+            .banner-info{
+                display: flex;
+                flex-direction: column;
+                text-align: start;
+                justify-content: flex-start;
+                .banner-subtitle{
+                    margin: 14px 0 8px;
+                    font-size: 18px;
+                    line-height: 139%;
+                    color: #10843f;
+                    font-family: $font-secondary;
+                }
+                .banner-title{
+                    font-size: 47px;
+                    line-height: 111%;
+                    color: #1d2f38;
+                    margin-bottom: 22px;
+                    font-family: $font-primary;
+                }
+                .banner-description{
+                    font-size: 18px;
+                    line-height: 133%;
+                    color: #333;
+                    margin-bottom: 15px;
+                    font-family: $font-secondary;
+                }
+                .btn-banner{
+                    font-size: 15px;
+                    text-align: center;
+                    line-height: 133%;
+                    color: #fff;
+                    background-color: #17A550;
+                    max-width: 161px;
+                    padding: 14px 1px;
+                    font-family: $font-secondary;
+                }
+            }
+        }
+    }
+}
