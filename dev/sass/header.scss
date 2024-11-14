@@ -1,8 +1,39 @@
-header{
-	height: 7vh;
-	padding: 15px 0;
-	background: #222;
-	a {
-		color: #fff;
-	}
+.navbar-custom{
+    padding: 15px 0 16px;
+    margin-bottom: 59px;
+    font-family: $font-secondary;
+    a{
+        text-decoration: none;
+    }    
+}
+.navbar-brand{
+    margin: 0;
+}
+.navbar-nav{
+    margin-right: 234px;
+    margin-left: 30px;
+}
+.nav-item{
+    .nav-link{
+        font-size: 14px;
+        line-height: 143%;
+        margin-right: 30px;
+        color: #1d2f38;
+        img{
+            width: 19px;
+            height: 17px;
+            margin-right: 12px;
+        }
+    }
+}
+.nav-sing{
+    font-size: 14px;
+    line-height: 143%;
+    margin-right: 30px;
+    color: #1d2f38;
+    img{
+        width: 32px;
+        height: 22px;
+        margin-right: 12px;
+    }
 }

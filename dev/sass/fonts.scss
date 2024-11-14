@@ -1,7 +1,15 @@
 @font-face {
-    font-family: 'Gilroy-Regular';
-    src: url('./assets/fonts/Gilroy-Regular.woff') format('woff');
-    font-weight: normal; 
+    font-family: 'Bitter';
+    src: url('./assets/fonts/Bitter-Regular.ttf') format('truetype');
+    font-weight: 400; 
     font-style: normal;
     font-display: swap;
 }
+@font-face {
+    font-family: 'Raleway';
+    src: url('./assets/fonts/Raleway-Regular.ttf') format('truetype');
+    font-weight: 400; 
+    font-style: normal;
+    font-display: swap;
+}
+
