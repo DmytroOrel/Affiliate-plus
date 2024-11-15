@@ -13,3 +13,8 @@ body{
     color: $title-cl;    
     font-family: $font-primary;
 }
+.small-bg{
+    background: url(../assets/img/img-small.svg);
+    max-width: 1174px;
+    margin: 0 auto;
+}

@@ -1,0 +1,24 @@
+.small-banner{
+    margin-bottom: 100px;
+    .small-info{
+        display: flex;
+        padding: 27px 40px 27px 30px;
+        .small-title{
+            font-size: 28px;
+            font-family: $font-primary;
+            line-height: 114%;
+            color: $title-cl;
+            padding-right: 327px;
+            img{
+                margin-right: 12px;
+            }
+        }
+        .btn-small{
+            background-color: #17A550;
+            color: #fff;
+            font-family: $font-secondary;
+            font-size: 15px;
+            line-height: 147%;
+        }
+    }
+}

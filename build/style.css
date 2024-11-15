@@ -86,6 +86,12 @@ body {
   font-family: "Bitter";
 }
 
+.small-bg {
+  background: url(../assets/img/img-small.svg);
+  max-width: 1174px;
+  margin: 0 auto;
+}
+
 .banner {
   margin-bottom: 80px;
 }
@@ -196,6 +202,31 @@ body {
 }
 .blog a img {
   margin-right: 4px;
+}
+
+.small-banner {
+  margin-bottom: 100px;
+}
+.small-banner .small-info {
+  display: flex;
+  padding: 27px 40px 27px 30px;
+}
+.small-banner .small-info .small-title {
+  font-size: 28px;
+  font-family: "Bitter";
+  line-height: 114%;
+  color: #1d2f38;
+  padding-right: 327px;
+}
+.small-banner .small-info .small-title img {
+  margin-right: 12px;
+}
+.small-banner .small-info .btn-small {
+  background-color: #17A550;
+  color: #fff;
+  font-family: "Raleway";
+  font-size: 15px;
+  line-height: 147%;
 }
 
 footer {
