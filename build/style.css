@@ -88,7 +88,13 @@ body {
 }
 
 .small-bg {
-  background: url(../assets/img/img-small.svg);
+  background: url(../assets/img/img-small.svg) no-repeat;
+  max-width: 1174px;
+  margin: 0 auto;
+}
+
+.large-bg {
+  background: url(../assets/img/large-bg.svg) no-repeat;
   max-width: 1174px;
   margin: 0 auto;
 }
@@ -281,6 +287,54 @@ body {
   color: #1d2f38;
 }
 .cards a:hover {
+  color: #17A550;
+}
+
+.sing-up {
+  margin-bottom: 167px;
+  padding: 50px;
+}
+.sing-up .sing-up_elements {
+  display: flex;
+}
+.sing-up .sing-up_elements .sing-up_img {
+  margin-right: 50px;
+}
+.sing-up .sing-up_elements .sing-up_info .sing-up_title {
+  font-size: 30px;
+  line-height: 117%;
+  font-family: "Bitter";
+  margin-bottom: 30px;
+}
+.sing-up .sing-up_elements .sing-up_info .sing-up_title img {
+  margin-right: 10px;
+}
+.sing-up .sing-up_elements .sing-up_info .sing-up_description {
+  font-size: 18px;
+  line-height: 133%;
+  font-family: "Raleway";
+  margin-bottom: 24px;
+}
+.sing-up .sing-up_elements .sing-up_info .input-box {
+  margin-bottom: 31px;
+}
+.sing-up .sing-up_elements .sing-up_info .input-box input {
+  padding: 12px 16px;
+  width: 500px;
+  border: 1px solid #aabcc5;
+  border-radius: 5px;
+}
+.sing-up .sing-up_elements .sing-up_info .btn-submit {
+  border-radius: 5px;
+  width: 82px;
+  height: 50px;
+  background: #ffc728;
+}
+.sing-up .sing-up_elements .sing-up_info .btn-submit:hover {
+  background-color: #17A550;
+  color: #FFF;
+}
+.sing-up .sing-up_elements .sing-up_info .btn-privacy:hover {
   color: #17A550;
 }
 

@@ -15,7 +15,12 @@ body{
     font-family: $font-primary;
 }
 .small-bg{
-    background: url(../assets/img/img-small.svg);
+    background: url(../assets/img/img-small.svg) no-repeat;
+    max-width: 1174px;
+    margin: 0 auto;
+}
+.large-bg{
+    background: url(../assets/img/large-bg.svg) no-repeat;
     max-width: 1174px;
     margin: 0 auto;
 }
