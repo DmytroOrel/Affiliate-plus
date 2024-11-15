@@ -72,6 +72,7 @@ body {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
+  color: #1d2f38;
 }
 
 .container {
@@ -149,6 +150,9 @@ body {
 .blog {
   margin-bottom: 100px;
 }
+.blog .template-title {
+  margin-bottom: 33px;
+}
 .blog .news {
   display: flex;
   flex-direction: row;
@@ -203,6 +207,9 @@ body {
 .blog a img {
   margin-right: 4px;
 }
+.blog a:hover {
+  color: #17A550;
+}
 
 .small-banner {
   margin-bottom: 100px;
@@ -227,6 +234,54 @@ body {
   font-family: "Raleway";
   font-size: 15px;
   line-height: 147%;
+}
+
+.cards {
+  margin-bottom: 100px;
+}
+.cards .template-title {
+  margin-bottom: 70px;
+}
+.cards .cards-list {
+  display: flex;
+  margin-bottom: 40px;
+}
+.cards .cards-list .card-1,
+.cards .cards-list .card-2,
+.cards .cards-list .card-3 {
+  max-width: 357px;
+  margin-right: 40px;
+  border-radius: 10px;
+  background-color: rgba(173, 216, 230, 0.1607843137);
+}
+.cards .cards-list .card-1 img,
+.cards .cards-list .card-2 img,
+.cards .cards-list .card-3 img {
+  margin-bottom: 24px;
+}
+.cards .cards-list .card-1 .card-title,
+.cards .cards-list .card-2 .card-title,
+.cards .cards-list .card-3 .card-title {
+  text-align: center;
+  font-size: 30px;
+  margin: 0 32px 13px 25px;
+  font-family: "Bitter";
+  line-height: 117%;
+}
+.cards .cards-list .card-1 .card-description,
+.cards .cards-list .card-2 .card-description,
+.cards .cards-list .card-3 .card-description {
+  font-size: 15px;
+  line-height: 133%;
+  font-family: "Raleway";
+  margin: 0 32px 39px 25px;
+}
+.cards a {
+  text-decoration: none;
+  color: #1d2f38;
+}
+.cards a:hover {
+  color: #17A550;
 }
 
 footer {

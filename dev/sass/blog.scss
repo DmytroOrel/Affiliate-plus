@@ -1,5 +1,8 @@
 .blog{
      margin-bottom: 100px;
+     .template-title{
+        margin-bottom: 33px;
+     }
     .news{
         display: flex;
         flex-direction: row;
@@ -50,6 +53,9 @@
         color: $title-cl;
         img{
             margin-right: 4px;
+        }
+        &:hover{
+            color: #17A550;
         }
     }
 }

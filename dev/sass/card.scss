@@ -1,0 +1,41 @@
+.cards{
+    margin-bottom: 100px;
+    .template-title{
+        margin-bottom: 70px;
+    }
+    .cards-list{
+        display: flex;
+        margin-bottom: 40px;
+        .card-1,
+        .card-2,
+        .card-3{
+            max-width: 357px;
+            margin-right: 40px;
+            border-radius: 10px;
+            background-color: #add8e629;
+            img{
+                margin-bottom: 24px;
+            }
+            .card-title{
+                text-align: center;
+                font-size: 30px;
+                margin: 0 32px 13px 25px;
+                font-family: $font-primary;
+                line-height: 117%;
+            }
+            .card-description{
+                font-size: 15px;
+                line-height: 133%;
+                font-family: $font-secondary;
+                margin: 0 32px 39px 25px;
+            }
+        }
+    }
+    a{
+        text-decoration: none;
+        color: $title-cl;
+        &:hover{
+            color: #17A550;
+        }
+    }
+}
