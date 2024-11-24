@@ -55,6 +55,9 @@ Use it to make something cool, have fun, and share what you've learned with othe
   height: 17px;
   margin-right: 12px;
 }
+.nav-item .nav-link:hover {
+  color: #17A550;
+}
 
 .nav-sing {
   font-size: 14px;
@@ -66,6 +69,9 @@ Use it to make something cool, have fun, and share what you've learned with othe
   width: 32px;
   height: 22px;
   margin-right: 12px;
+}
+.nav-sing:hover {
+  color: #17A550;
 }
 
 body {
@@ -157,6 +163,10 @@ body {
   max-width: 161px;
   padding: 14px 1px;
   font-family: "Raleway";
+}
+.banner .container .banner-filling .banner-info .btn-banner:hover {
+  background-color: transparent;
+  color: #1d2f38;
 }
 
 .blog {

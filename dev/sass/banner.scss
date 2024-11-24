@@ -46,6 +46,10 @@
                     max-width: 161px;
                     padding: 14px 1px;
                     font-family: $font-secondary;
+                    &:hover{
+                        background-color: transparent;
+                        color: $title-cl;
+                    }
                 }
             }
         }
